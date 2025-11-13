@@ -8,6 +8,11 @@ namespace WPiAA_Homework.DesignPatterns.Builder
         internal abstract void BuildWeapon();
         internal abstract void Train();
 
-        internal IWarrior Warrior { get; set; }
+        protected IWarrior Warrior { get; set; }
+
+        internal IWarrior GetWarrior()
+        {
+            return Warrior;
+        }
     }
 }

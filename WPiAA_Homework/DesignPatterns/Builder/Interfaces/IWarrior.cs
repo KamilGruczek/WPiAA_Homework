@@ -4,7 +4,7 @@
     {
         string Name { get; set; }
         int Age { get; set; }
-        string Weapon { get; }
+        string Weapon { get; set; }
         void Fight();
     }
 }

@@ -11,6 +11,7 @@ namespace WPiAA_Homework.DesignPatterns.Builder
 
         internal override void BuildWeapon()
         {
+            Warrior.Weapon = "sword";
             Console.WriteLine($"{Warrior.Name} is equipped with a {Warrior.Weapon}.");
         }
 

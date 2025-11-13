@@ -8,9 +8,11 @@ namespace WPiAA_Homework.DesignPatterns.Builder
         private readonly PiechurBuilder _piechurBuilder = new PiechurBuilder();
         private readonly KonnyBuilder _konnyBuilder = new KonnyBuilder();
         private readonly StrzelecBuilder _strzelecBuilder = new StrzelecBuilder();
+        private static readonly Random _random = new();
 
         public List<IWarrior> CreateGarnizon()
         {
+            _warriors.Clear();
             _warriors.Add(TrainWarrior(_piechurBuilder));
             _warriors.Add(TrainWarrior(_piechurBuilder));
             _warriors.Add(TrainWarrior(_konnyBuilder));
@@ -23,11 +25,11 @@ namespace WPiAA_Homework.DesignPatterns.Builder
 
         private IWarrior TrainWarrior(WarriorBuilder builder)
         {
-            builder.BuildWarrior(Path.GetTempFileName().Split('.')[0], new Random().Next(18, 30));
+            builder.BuildWarrior(Path.GetRandomFileName().Split('.')[0], _random.Next(18, 30));
             builder.BuildWeapon();
             builder.Train();
 
-            return builder.Warrior;
+            return builder.GetWarrior();
         }
     }
 }

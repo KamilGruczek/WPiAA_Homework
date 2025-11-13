@@ -6,13 +6,7 @@ namespace WPiAA_Homework.DesignPatterns.Builder.Warriors
     {
         public string Name { get; set; }
         public int Age { get; set; }
-        public string Weapon
-        {
-            get
-            {
-                return "bow";
-            }
-        }
+        public string Weapon { get; set; } = string.Empty;
 
         public Strzelec(string name, int age)
         {
