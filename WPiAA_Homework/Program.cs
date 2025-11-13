@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Builder
 var garnizon = new WPiAA_Homework.DesignPatterns.Builder.Garnizon();
 var warriors = garnizon.CreateGarnizon();
 foreach (var warrior in warriors)
@@ -7,4 +6,10 @@ foreach (var warrior in warriors)
     warrior.Fight();
 }
 
-Console.ReadLine();
+Console.ReadKey();
+
+// Prototype
+var prototype = new WPiAA_Homework.DesignPatterns.Prototype.Prototype();
+prototype.Run();
+
+Console.ReadKey();
