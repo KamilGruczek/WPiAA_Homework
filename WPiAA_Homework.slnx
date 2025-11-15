@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="Facade/Facade.csproj" Id="a9e33d2d-e897-4064-80de-d01f2a741e59" />
   <Project Path="SingletonVault/SingletonVault.csproj" Id="1ec42a9e-9594-43a2-8b26-afa5de03d283" />
   <Project Path="WPiAA_Homework/WPiAA_Homework.csproj" />
 </Solution>
