@@ -13,8 +13,8 @@ namespace Facade.Services
                 var client = CreateHttpClient();
                 var newUrl = GetUrl(apiUrl);
                 var response = await client.GetAsync(newUrl);
+
                 response.EnsureSuccessStatusCode();
-                var str = await response.Content.ReadAsStringAsync();
 
                 return await response.Content.ReadFromJsonAsync<T>();
             }
