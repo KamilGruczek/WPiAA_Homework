@@ -3,5 +3,6 @@
   <Project Path="Facade/Facade.csproj" Id="a9e33d2d-e897-4064-80de-d01f2a741e59" />
   <Project Path="Proxy/Proxy.csproj" Id="813b8339-4411-4828-9d81-8da06e9da66c" />
   <Project Path="SingletonVault/SingletonVault.csproj" Id="1ec42a9e-9594-43a2-8b26-afa5de03d283" />
+  <Project Path="Strategy/Strategy.csproj" Id="f6ce8cc3-6558-401b-bfad-27aade991857" />
   <Project Path="WPiAA_Homework/WPiAA_Homework.csproj" />
 </Solution>
