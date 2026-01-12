@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="Adapter/Adapter.csproj" Id="5d8d8aa9-c748-4262-b42c-b355de59092a" />
+  <Project Path="Bridge/Bridge.csproj" Id="ca7702dc-9c4c-4876-adde-b38e4386115b" />
   <Project Path="Facade/Facade.csproj" Id="a9e33d2d-e897-4064-80de-d01f2a741e59" />
   <Project Path="Proxy/Proxy.csproj" Id="813b8339-4411-4828-9d81-8da06e9da66c" />
   <Project Path="SingletonVault/SingletonVault.csproj" Id="1ec42a9e-9594-43a2-8b26-afa5de03d283" />
