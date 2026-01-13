@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Hello in Bridge OS App.");
+﻿Console.WriteLine("Hello in Decorator Shop.");
 
 var shop = new Decorator.Shop();
 var decoratedShop = new Decorator.Decorator(shop);
