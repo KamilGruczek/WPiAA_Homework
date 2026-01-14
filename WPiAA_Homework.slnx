@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="Adapter/Adapter.csproj" Id="5d8d8aa9-c748-4262-b42c-b355de59092a" />
   <Project Path="Bridge/Bridge.csproj" Id="ca7702dc-9c4c-4876-adde-b38e4386115b" />
+  <Project Path="Command/Command.csproj" Id="775dfb99-9ec2-4707-95b0-7575fbfde6c0" />
   <Project Path="Composite/Composite.csproj" Id="71806c48-0aab-4bd9-8deb-93f1445e9929" />
   <Project Path="Decorator/Decorator.csproj" Id="3d93e6a2-86c3-4922-a1ca-f89b4bcb4b24" />
   <Project Path="Facade/Facade.csproj" Id="a9e33d2d-e897-4064-80de-d01f2a741e59" />
