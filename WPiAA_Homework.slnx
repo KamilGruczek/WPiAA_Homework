@@ -4,6 +4,7 @@
   <Project Path="Composite/Composite.csproj" Id="71806c48-0aab-4bd9-8deb-93f1445e9929" />
   <Project Path="Decorator/Decorator.csproj" Id="3d93e6a2-86c3-4922-a1ca-f89b4bcb4b24" />
   <Project Path="Facade/Facade.csproj" Id="a9e33d2d-e897-4064-80de-d01f2a741e59" />
+  <Project Path="Flyweight/Flyweight.csproj" Id="7789ed96-4899-4b28-9453-207d4b606f59" />
   <Project Path="Observer/Observer.csproj" Id="db715ce8-53af-4006-90e2-0175375eadb6" />
   <Project Path="Proxy/Proxy.csproj" Id="813b8339-4411-4828-9d81-8da06e9da66c" />
   <Project Path="SingletonVault/SingletonVault.csproj" Id="1ec42a9e-9594-43a2-8b26-afa5de03d283" />
